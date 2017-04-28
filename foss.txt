@@ -1,0 +1,23 @@
+Definition of the DeletePerson() method of the Company class.
+//      This method will delete the employee of the user's choosing from
+//      the Company class instance.
+        
+        void HRM::DeletePerson() {
+        //      Show all of the current employees
+        //      Ask the user the ID of which employee that they wish to
+        //      delete.
+                          
+        int empId;
+        bool lol;
+        char redo1,redo2;
+        lol =false;
+         lebel:
+        cout << "ID of employee to remove: ";
+     
+         while(!(cin>>empId))  //Reciving vaiables from input : is it no/character ?
+      {
+                   cout << "Please  enter a number!  Try again: ";
+                   cin.clear ();  
+                  cin.ignore (1000, '\n');  // Skip to next newline or 1000 chars,
+                                           // whichever comes first.
+      }
