@@ -1,5 +1,5 @@
 
-package anytimefitness;
+package welcome2;
 
 
 public class welcome extends javax.swing.JFrame {
